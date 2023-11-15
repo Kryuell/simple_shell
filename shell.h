@@ -36,7 +36,7 @@ int _atoi(char *str);
 
 
 
-int hand_builtin(char *command);
+int check_builtin(char *command);
 void handle_builtin(char **command, char **argv, int *status, int idex);
 void exit_shell(char **command, char **argv, int *status, int idex);
 void print_env(char **command, int *status);
